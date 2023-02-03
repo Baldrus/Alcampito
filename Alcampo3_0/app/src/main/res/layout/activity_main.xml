@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#FFFBE7">
+
+        <!--Logo Alcampo-->
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/logo"
+            android:layout_marginBottom="10dp"/>
+
+        <!--Layout Categorías-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <!--Categoría Juguetes-->
+            <LinearLayout
+                android:id="@+id/juguetes"
+                android:layout_width="156dp"
+                android:layout_height="162dp"
+                android:background="@drawable/esquinas_redondeadas"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:clickable="true"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp">
+
+                <ImageView
+                    android:layout_width="135dp"
+                    android:layout_height="135dp"
+                    android:src="@drawable/juguetes"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="JUGUETES"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <!--Categoría Videojuegos-->
+            <LinearLayout
+                android:id="@+id/videojuegos"
+                android:layout_width="156dp"
+                android:layout_height="162dp"
+                android:gravity="center"
+                android:layout_toRightOf="@id/juguetes"
+                android:background="@drawable/esquinas_redondeadas"
+                android:orientation="vertical"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="10dp">
+
+                <ImageView
+                    android:layout_width="135dp"
+                    android:layout_height="135dp"
+                    android:src="@drawable/videojuegos"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="VIDEOJUEGOS"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <!--Categoría Decoracion-->
+            <LinearLayout
+                android:id="@+id/decoracion"
+                android:layout_width="156dp"
+                android:layout_height="162dp"
+                android:gravity="center"
+                android:layout_below="@id/juguetes"
+                android:background="@drawable/esquinas_redondeadas"
+                android:orientation="vertical"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp">
+
+                <ImageView
+                    android:layout_width="135dp"
+                    android:layout_height="135dp"
+                    android:src="@drawable/decoracion"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="DECORACIÓN"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <!--Categoría Perfumes-->
+            <LinearLayout
+                android:id="@+id/perfumes"
+                android:layout_width="156dp"
+                android:layout_height="162dp"
+                android:gravity="center"
+                android:layout_below="@id/videojuegos"
+                android:layout_toRightOf="@id/decoracion"
+                android:background="@drawable/esquinas_redondeadas"
+                android:orientation="vertical"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp">
+
+                <ImageView
+                    android:layout_width="135dp"
+                    android:layout_height="135dp"
+                    android:src="@drawable/perfume"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="PERFUMERÍA"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <!--Producto destacado-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="50dp">
+
+            <LinearLayout
+                android:layout_width="332dp"
+                android:layout_height="143dp"
+                android:background="@drawable/esquinas_redondeadas"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="156dp"
+                    android:layout_height="126dp"
+                    android:src="@drawable/resident_evil_2" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="RESIDENT EVIL 2"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:text="Puesta al día del clásico original del género survival horror. Supone un cambio de perspectiva jugable, de estilo, un concepto muy ambicioso desde el..."
+                        android:textColor="@color/black" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
