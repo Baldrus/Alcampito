@@ -5,6 +5,14 @@
     android:layout_height="match_parent"
     android:background="#FFFBE7">
 
+    <ImageView
+        android:layout_width="600dp"
+        android:layout_height="600dp"
+        android:src="@drawable/a_alcampo"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="66dp"
+        tools:layout_editor_absoluteX="-95dp"/>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -47,6 +55,7 @@
 
                     <!--Furby-->
                     <LinearLayout
+                        android:id="@+id/furby"
                         android:layout_width="332dp"
                         android:layout_height="143dp"
                         android:layout_marginBottom="30dp"
@@ -76,6 +85,7 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:gravity="center_vertical"
+                                android:text="¿Estás buscando un juguete divertido y interactivo para ti o para un niño? Entonces el Furby es la elección perfecta. Con su apariencia única y sus habilidades..."
                                 android:textColor="@color/black" />
 
                         </LinearLayout>
@@ -84,6 +94,7 @@
 
                     <!--Dinosaurio-->
                     <LinearLayout
+                        android:id="@+id/dino"
                         android:layout_width="332dp"
                         android:layout_height="143dp"
                         android:layout_marginBottom="30dp"
@@ -93,7 +104,8 @@
                         <ImageView
                             android:layout_width="156dp"
                             android:layout_height="126dp"
-                            android:src="@drawable/dinosaurio"/>
+                            android:rotation="-38"
+                            android:src="@drawable/dinosaurio" />
 
                         <LinearLayout
                             android:layout_width="match_parent"
@@ -112,7 +124,8 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:gravity="center_vertical"
-                                android:textColor="@color/black" />
+                                android:textColor="@color/black"
+                                android:text="¿Estás buscando un juguete divertido y emocionante para agregar a tu colección o para un niño en tu vida? ¡Entonces un dinosaurio de juguete es la opción perfecta!..."/>
 
                         </LinearLayout>
 
@@ -120,6 +133,7 @@
 
                     <!--Cubo de Rubik-->
                     <LinearLayout
+                        android:id="@+id/rubik"
                         android:layout_width="332dp"
                         android:layout_height="143dp"
                         android:layout_marginBottom="30dp"
@@ -148,7 +162,8 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:gravity="center_vertical"
-                                android:textColor="@color/black" />
+                                android:textColor="@color/black"
+                                android:text="Un clásico desafío para todas las edades. Ejercita la mente y tu habilidad espacial resolviendo este rompecabezas de combinación de colores. Gira los lados del cubo..."/>
 
                         </LinearLayout>
 
@@ -156,6 +171,7 @@
 
                     <!--Halcon Milenario-->
                     <LinearLayout
+                        android:id="@+id/halcon"
                         android:layout_width="332dp"
                         android:layout_height="143dp"
                         android:layout_marginBottom="30dp"
@@ -177,6 +193,7 @@
                                 android:layout_height="wrap_content"
                                 android:text="LEGO HALCÓN MILENARIO"
                                 android:textAlignment="center"
+                                android:textSize="12dp"
                                 android:textColor="@color/black"
                                 android:textStyle="bold"/>
 
@@ -184,7 +201,10 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:gravity="center_vertical"
-                                android:textColor="@color/black" />
+                                android:textColor="@color/black"
+                                android:text="Esta versión para construir del emblemático carguero Corelliano cuenta con numerosos detalles, como torretas defensivas superior e inferior giratorias, 2 cañones..."/>
+                                <!---->
+
 
                         </LinearLayout>
 
@@ -192,6 +212,7 @@
 
                     <!--Scar Fortnite-->
                     <LinearLayout
+                        android:id="@+id/fusil"
                         android:layout_width="332dp"
                         android:layout_height="143dp"
                         android:layout_marginBottom="30dp"
@@ -211,7 +232,7 @@
                             <TextView
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:text="FURBY"
+                                android:text="FUSIL FORTNITE"
                                 android:textAlignment="center"
                                 android:textColor="@color/black"
                                 android:textStyle="bold"/>
@@ -220,7 +241,8 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:gravity="center_vertical"
-                                android:textColor="@color/black" />
+                                android:textColor="@color/black"
+                                android:text="Réplica del lanzado de dardos Fortnite: El lanzador AR-L está inspirado en el lanzador que se usa en el videojuego Fortnite Battle Royale y reproduce..."/>
 
                         </LinearLayout>
 
@@ -228,6 +250,7 @@
 
                     <!--Scalextric-->
                     <LinearLayout
+                        android:id="@+id/scalextric"
                         android:layout_width="332dp"
                         android:layout_height="143dp"
                         android:layout_marginBottom="30dp"
@@ -247,7 +270,7 @@
                             <TextView
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:text="FURBY"
+                                android:text="SCALEXTRIC"
                                 android:textAlignment="center"
                                 android:textColor="@color/black"
                                 android:textStyle="bold"/>
@@ -256,7 +279,9 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:gravity="center_vertical"
-                                android:textColor="@color/black" />
+                                android:textColor="@color/black"
+                                android:text="Scalextric Advance pone en tus manos en la escala reina 1:32 toda la potencia de los sistemas digitales conocidos, pero da un salto tecnológico a nivel prestaciones..."/>
+                                <!--Fabicante: Rally Cross\nPrecio: 209,99€\nScalextric Advance pone en tus manos en la escala reina 1:32 toda la potencia de los sistemas digitales conocidos, pero da un salto tecnológico a nivel prestaciones en la sensibilidad y el control del coche en carrera. La conexión a Smartphone y Tablet te permite el setup de los coches y carreras con las pistas Bluetooth (E1029X200). Incluye dos Audi S1 WRX, pistas de cambio de carril para realizar grandes adelantamientos.-->
 
                         </LinearLayout>
 

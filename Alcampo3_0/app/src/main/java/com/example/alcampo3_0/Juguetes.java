@@ -1,6 +1,8 @@
 package com.example.alcampo3_0;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 
@@ -13,6 +15,60 @@ public class Juguetes extends AppCompatActivity {
         setContentView(R.layout.juguetes_layout);
 
         getSupportActionBar().hide();
+
+        LinearLayout furby =findViewById(R.id.furby);
+        furby.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent fur = new Intent(Juguetes.this, Furby.class);
+                startActivity(fur);
+            }
+        });
+
+        LinearLayout dino =findViewById(R.id.dino);
+        dino.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent din = new Intent(Juguetes.this, Dinosaurio.class);
+                startActivity(din);
+            }
+        });
+
+        LinearLayout rubik =findViewById(R.id.rubik);
+        rubik.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent rub = new Intent(Juguetes.this, Rubik.class);
+                startActivity(rub);
+            }
+        });
+
+        LinearLayout halcon =findViewById(R.id.halcon);
+        halcon.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent hal = new Intent(Juguetes.this, Halcon.class);
+                startActivity(hal);
+            }
+        });
+
+        LinearLayout scar =findViewById(R.id.fusil);
+        scar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent sca = new Intent(Juguetes.this, Scar.class);
+                startActivity(sca);
+            }
+        });
+
+        LinearLayout scalextric =findViewById(R.id.scalextric);
+        scalextric.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent scal = new Intent(Juguetes.this, Scalextric.class);
+                startActivity(scal);
+            }
+        });
 
 
     }

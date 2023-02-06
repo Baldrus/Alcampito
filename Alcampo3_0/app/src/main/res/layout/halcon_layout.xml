@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFBE7">
+
+    <ImageView
+        android:layout_width="600dp"
+        android:layout_height="600dp"
+        android:src="@drawable/a_alcampo"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="66dp"
+        tools:layout_editor_absoluteX="-95dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lego Halcon Milenario"
+            android:textColor="#E40613"
+            android:textStyle="bold"
+            android:textSize="35dp"
+            android:layout_margin="20dp"
+            android:textAlignment="center"/>
+
+        <ImageView
+            android:layout_width="195dp"
+            android:layout_height="186dp"
+            android:src="@drawable/halcon_milenario"/>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_margin="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fabricante: LEGO\nEdad: 9+\nPrecio: 169,99€\n\nEsta versión para construir del emblemático carguero Corelliano cuenta con numerosos detalles, como torretas defensivas superior e inferior giratorias, 2 cañones automáticos, una rampa descendente y una cabina abatible con espacio para 2 minifiguras. Los paneles superiores también se abren para acceder a un detallado interior en el que tu peque podrá tomar los mandos y disfrutar interpretando escenas de la película Star Wars: El Ascenso de Skywalker con Finn, Chewbacca, Lando Calrissian, Boolio, C-3PO, R2-D2 y D-O, los personajes de Star Wars. Este emblemático set LEGO Star Wars es también una fantástica pieza de colección que encantará a cualquier fan."
+                android:textColor="@color/black"
+                android:textSize="20dp"/>
+
+        </ScrollView>
+
+        <Button
+            android:layout_width="136dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/esquinas_redondeadas"
+            android:text="COMPRAR"
+            android:textColor="@color/black"/>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

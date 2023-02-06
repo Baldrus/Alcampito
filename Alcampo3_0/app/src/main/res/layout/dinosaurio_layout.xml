@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFBE7">
+
+    <ImageView
+        android:layout_width="600dp"
+        android:layout_height="600dp"
+        android:src="@drawable/a_alcampo"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="66dp"
+        tools:layout_editor_absoluteX="-95dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dinosaurio"
+            android:textColor="#E40613"
+            android:textStyle="bold"
+            android:textSize="45dp"
+            android:layout_margin="20dp"
+            android:textAlignment="center"/>
+
+        <ImageView
+            android:layout_width="195dp"
+            android:layout_height="186dp"
+            android:rotation="-38"
+            android:src="@drawable/dinosaurio" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_margin="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fabricante: Prehistoric Toys\nEdad: Todas las edades\nPrecio: 19,99€\n\n¿Estás buscando un juguete divertido y emocionante para agregar a tu colección o para un niño en tu vida? ¡Entonces un dinosaurio de juguete es la opción perfecta! Con su aspecto realista y detallado, este juguete es seguro de impresionar a cualquiera que lo vea. Además, su tamaño y peso lo hacen perfecto para jugar y desarrollar la imaginación.\n\nNo solo es divertido jugar con un dinosaurio de juguete, sino que también es una excelente manera de aprender y desarrollar habilidades. Los niños pueden aprender sobre la historia de los dinosaurios y desarrollar su creatividad mientras juegan con este juguete.\n\nNo esperes más para tener el tuyo. ¡Consigue un dinosaurio de juguete hoy mismo y prepárate para una aventura prehistoricamente divertida!"
+                android:textColor="@color/black"
+                android:textSize="20dp"/>
+
+        </ScrollView>
+
+        <Button
+            android:layout_width="136dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/esquinas_redondeadas"
+            android:text="COMPRAR"
+            android:textColor="@color/black"/>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

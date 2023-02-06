@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFBE7">
+
+    <ImageView
+        android:layout_width="600dp"
+        android:layout_height="600dp"
+        android:src="@drawable/a_alcampo"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="66dp"
+        tools:layout_editor_absoluteX="-95dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Scalextric"
+            android:textColor="#E40613"
+            android:textStyle="bold"
+            android:textSize="45dp"
+            android:layout_margin="20dp"
+            android:textAlignment="center"/>
+
+        <ImageView
+            android:layout_width="195dp"
+            android:layout_height="186dp"
+            android:src="@drawable/scalextric" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_margin="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fabricante: Scalextric\nEdad: 12+\nPrecio: 209,99€\n\nScalextric Advance pone en tus manos en la escala reina 1:32 toda la potencia de los sistemas digitales conocidos, pero da un salto tecnológico a nivel prestaciones en la sensibilidad y el control del coche en carrera. La conexión a Smartphone y Tablet te permite el setup de los coches y carreras con las pistas Bluetooth (E1029X200). Incluye dos Audi S1 WRX, pistas de cambio de carril para realizar grandes adelantamientos."
+                android:textColor="@color/black"
+                android:textSize="20dp"/>
+
+        </ScrollView>
+
+        <Button
+            android:layout_width="136dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/esquinas_redondeadas"
+            android:text="COMPRAR"
+            android:textColor="@color/black"/>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

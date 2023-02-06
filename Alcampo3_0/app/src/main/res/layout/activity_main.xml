@@ -108,7 +108,7 @@
 
             </LinearLayout>
 
-            <!--Categoría Perfumes-->
+            <!--Categoría Perfumeria-->
             <LinearLayout
                 android:id="@+id/perfumes"
                 android:layout_width="156dp"
@@ -146,6 +146,7 @@
             android:layout_marginTop="50dp">
 
             <LinearLayout
+                android:id="@+id/destacado"
                 android:layout_width="332dp"
                 android:layout_height="143dp"
                 android:background="@drawable/esquinas_redondeadas"

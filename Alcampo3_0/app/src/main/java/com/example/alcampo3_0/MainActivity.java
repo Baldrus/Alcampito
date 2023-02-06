@@ -16,8 +16,8 @@ public class MainActivity extends AppCompatActivity {
         //Comentario prueba
         getSupportActionBar().hide();
 
-        LinearLayout ln1 = findViewById(R.id.juguetes);
-        ln1.setOnClickListener(new View.OnClickListener() {
+        LinearLayout juguetes = findViewById(R.id.juguetes);
+        juguetes.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent jug = new Intent(MainActivity.this, Juguetes.class);
@@ -25,12 +25,39 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        LinearLayout ln2 = findViewById(R.id.videojuegos);
-        ln2.setOnClickListener(new View.OnClickListener() {
+        LinearLayout videojuegos = findViewById(R.id.videojuegos);
+        videojuegos.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent vid = new Intent(MainActivity.this, Videojuegos.class);
                 startActivity(vid);
+            }
+        });
+
+        LinearLayout decoracion = findViewById(R.id.decoracion);
+        decoracion.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent dec = new Intent(MainActivity.this, Decoracion.class);
+                startActivity(dec);
+            }
+        });
+
+        LinearLayout perfumeria = findViewById(R.id.perfumes);
+        perfumeria.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent per = new Intent(MainActivity.this, Perfumeria.class);
+                startActivity(per);
+            }
+        });
+
+        LinearLayout re2 = findViewById(R.id.destacado);
+        re2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent re = new Intent(MainActivity.this, RE2.class);
+                startActivity(re);
             }
         });
     }
