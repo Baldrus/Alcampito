@@ -1,14 +1,16 @@
-package com.example.alcampo3_0;
+package com.example.alcampo3_0.juguetes;
 
 import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class Rainbow extends AppCompatActivity {
+import com.example.alcampo3_0.R;
+
+public class Rubik extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.rainbow_layout);
+        setContentView(R.layout.rubik_layout);
 
         getSupportActionBar().hide();
 

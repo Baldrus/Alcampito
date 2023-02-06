@@ -25,7 +25,7 @@
 
         <!--Juguetes-->
         <activity
-            android:name=".Juguetes"
+            android:name=".juguetes.Juguetes"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -36,7 +36,7 @@
 
             <!--Furby-->
             <activity
-                android:name=".Furby"
+                android:name=".juguetes.Furby"
                 android:exported="true">
                 <intent-filter>
                     <action android:name="android.intent.action.MAIN" />
@@ -47,7 +47,7 @@
 
             <!--Dinosaurio-->
             <activity
-                android:name=".Dinosaurio"
+                android:name=".juguetes.Dinosaurio"
                 android:exported="true">
                 <intent-filter>
                     <action android:name="android.intent.action.MAIN" />
@@ -58,7 +58,7 @@
 
             <!--Rubik-->
             <activity
-                android:name=".Rubik"
+                android:name=".juguetes.Rubik"
                 android:exported="true">
                 <intent-filter>
                     <action android:name="android.intent.action.MAIN" />
@@ -69,7 +69,7 @@
 
             <!--Halcon Milenario-->
             <activity
-                android:name=".Halcon"
+                android:name=".juguetes.Halcon"
                 android:exported="true">
                 <intent-filter>
                     <action android:name="android.intent.action.MAIN" />
@@ -80,7 +80,7 @@
 
             <!--Fusil Fortnite-->
             <activity
-                android:name=".Scar"
+                android:name=".juguetes.Scar"
                 android:exported="true">
                 <intent-filter>
                     <action android:name="android.intent.action.MAIN" />
@@ -91,7 +91,7 @@
 
             <!--Scalextric-->
             <activity
-                android:name=".Scalextric"
+                android:name=".juguetes.Scalextric"
                 android:exported="true">
                 <intent-filter>
                     <action android:name="android.intent.action.MAIN" />
@@ -102,7 +102,7 @@
 
         <!--Videojuegos-->
         <activity
-            android:name=".Videojuegos"
+            android:name=".videojuegos.Videojuegos"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -113,7 +113,7 @@
 
             <!--Resident Evil 2-->
             <activity
-                android:name=".RE2"
+                android:name=".videojuegos.RE2"
                 android:exported="true">
                 <intent-filter>
                     <action android:name="android.intent.action.MAIN" />
@@ -124,7 +124,7 @@
 
             <!--Rainbow Six Siegue-->
             <activity
-                android:name=".Rainbow"
+                android:name=".videojuegos.Rainbow"
                 android:exported="true">
                 <intent-filter>
                     <action android:name="android.intent.action.MAIN" />
@@ -135,7 +135,7 @@
 
             <!--F1 2022-->
             <activity
-                android:name=".F1"
+                android:name=".videojuegos.F1"
                 android:exported="true">
                 <intent-filter>
                     <action android:name="android.intent.action.MAIN" />
@@ -146,7 +146,7 @@
 
             <!--Mario Bros-->
             <activity
-                android:name=".MarioBros"
+                android:name=".videojuegos.MarioBros"
                 android:exported="true">
                 <intent-filter>
                     <action android:name="android.intent.action.MAIN" />
@@ -157,7 +157,7 @@
 
             <!--God of War-->
             <activity
-                android:name=".GoW"
+                android:name=".videojuegos.GoW"
                 android:exported="true">
                 <intent-filter>
                     <action android:name="android.intent.action.MAIN" />
@@ -168,7 +168,7 @@
 
             <!--Halo 4-->
             <activity
-                android:name=".Halo4"
+                android:name=".videojuegos.Halo4"
                 android:exported="true">
                 <intent-filter>
                     <action android:name="android.intent.action.MAIN" />
@@ -179,7 +179,7 @@
 
         <!--Decoracion-->
         <activity
-            android:name=".Decoracion"
+            android:name=".decoracion.Decoracion"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -190,7 +190,7 @@
 
         <!--Perfumeria-->
         <activity
-            android:name=".Perfumeria"
+            android:name=".perfumeria.Perfumeria"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

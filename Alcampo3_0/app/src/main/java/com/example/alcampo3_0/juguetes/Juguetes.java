@@ -1,12 +1,13 @@
-package com.example.alcampo3_0;
+package com.example.alcampo3_0.juguetes;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.ImageView;
 import android.widget.LinearLayout;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.example.alcampo3_0.R;
 
 public class Juguetes extends AppCompatActivity {
     @Override

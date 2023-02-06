@@ -7,6 +7,12 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.LinearLayout;
 
+import com.example.alcampo3_0.decoracion.Decoracion;
+import com.example.alcampo3_0.juguetes.Juguetes;
+import com.example.alcampo3_0.perfumeria.Perfumeria;
+import com.example.alcampo3_0.videojuegos.RE2;
+import com.example.alcampo3_0.videojuegos.Videojuegos;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
