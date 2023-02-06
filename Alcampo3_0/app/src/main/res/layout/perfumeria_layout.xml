@@ -5,13 +5,18 @@
     android:layout_height="match_parent"
     android:background="#FFFBE7">
 
-    <ImageView
-        android:layout_width="600dp"
-        android:layout_height="600dp"
-        android:src="@drawable/a_alcampo"
-        tools:layout_editor_absoluteY="66dp"
-        tools:layout_editor_absoluteX="-95dp"
-        tools:ignore="MissingConstraints" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="600dp"
+            android:layout_height="600dp"
+            android:src="@drawable/a_alcampo"
+            tools:ignore="MissingConstraints"/>
+
+    </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -29,7 +34,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Perfumeria"
+                android:text="Perfumería"
                 android:textColor="#E40613"
                 android:textStyle="bold"
                 android:textSize="45dp"
@@ -53,9 +58,9 @@
                     android:gravity="center"
                     android:orientation="vertical">
 
-                    <!--Furby-->
+                    <!--Olvidona-->
                     <LinearLayout
-                        android:id="@+id/furby"
+                        android:id="@+id/olvidona"
                         android:layout_width="332dp"
                         android:layout_height="143dp"
                         android:layout_marginBottom="30dp"
@@ -76,7 +81,7 @@
                             <TextView
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:text="FURBY"
+                                android:text="OLVIDONA"
                                 android:textAlignment="center"
                                 android:textColor="@color/black"
                                 android:textStyle="bold"/>
@@ -85,14 +90,13 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:gravity="center_vertical"
-                                android:text="¿Estás buscando un juguete divertido y interactivo para ti o para un niño? Entonces el Furby es la elección perfecta. Con su apariencia única y sus habilidades..."
                                 android:textColor="@color/black" />
 
                         </LinearLayout>
 
                     </LinearLayout>
 
-                    <!--Dinosaurio-->
+                    <!--Hugo Boss-->
                     <LinearLayout
                         android:id="@+id/dino"
                         android:layout_width="332dp"
@@ -114,7 +118,7 @@
                             <TextView
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:text="DINOSAURIO"
+                                android:text="HUGO BOSS"
                                 android:textAlignment="center"
                                 android:textColor="@color/black"
                                 android:textStyle="bold"/>
@@ -129,7 +133,7 @@
 
                     </LinearLayout>
 
-                    <!--Cubo de Rubik-->
+                    <!--Calvin Klein-->
                     <LinearLayout
                         android:id="@+id/rubik"
                         android:layout_width="332dp"
@@ -151,7 +155,7 @@
                             <TextView
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:text="CUBO DE RUBIK"
+                                android:text="CALVIN KLEIN"
                                 android:textAlignment="center"
                                 android:textColor="@color/black"
                                 android:textStyle="bold"/>
@@ -166,7 +170,7 @@
 
                     </LinearLayout>
 
-                    <!--Halcon Milenario-->
+                    <!--Play Boy-->
                     <LinearLayout
                         android:id="@+id/halcon"
                         android:layout_width="332dp"
@@ -188,7 +192,7 @@
                             <TextView
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:text="LEGO HALCÓN MILENARIO"
+                                android:text="PLAY BOY"
                                 android:textAlignment="center"
                                 android:textColor="@color/black"
                                 android:textStyle="bold"/>
@@ -203,7 +207,7 @@
 
                     </LinearLayout>
 
-                    <!--Scar Fortnite-->
+                    <!--Dolce & Gabbana-->
                     <LinearLayout
                         android:id="@+id/fusil"
                         android:layout_width="332dp"
@@ -240,7 +244,7 @@
 
                     </LinearLayout>
 
-                    <!--Scalextric-->
+                    <!--Chanel-->
                     <LinearLayout
                         android:id="@+id/scalextric"
                         android:layout_width="332dp"
@@ -262,7 +266,7 @@
                             <TextView
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:text="SCALEXTRIC"
+                                android:text="CANEL"
                                 android:textAlignment="center"
                                 android:textColor="@color/black"
                                 android:textStyle="bold"/>

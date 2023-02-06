@@ -122,6 +122,61 @@
                 </intent-filter>
             </activity>
 
+            <!--Rainbow Six Siegue-->
+            <activity
+                android:name=".Rainbow"
+                android:exported="true">
+                <intent-filter>
+                    <action android:name="android.intent.action.MAIN" />
+
+                    <category android:name="android.intent.category.LAUNCHER" />
+                </intent-filter>
+            </activity>
+
+            <!--F1 2022-->
+            <activity
+                android:name=".F1"
+                android:exported="true">
+                <intent-filter>
+                    <action android:name="android.intent.action.MAIN" />
+
+                    <category android:name="android.intent.category.LAUNCHER" />
+                </intent-filter>
+            </activity>
+
+            <!--Mario Bros-->
+            <activity
+                android:name=".MarioBros"
+                android:exported="true">
+                <intent-filter>
+                    <action android:name="android.intent.action.MAIN" />
+
+                    <category android:name="android.intent.category.LAUNCHER" />
+                </intent-filter>
+            </activity>
+
+            <!--God of War-->
+            <activity
+                android:name=".GoW"
+                android:exported="true">
+                <intent-filter>
+                    <action android:name="android.intent.action.MAIN" />
+
+                    <category android:name="android.intent.category.LAUNCHER" />
+                </intent-filter>
+            </activity>
+
+            <!--Halo 4-->
+            <activity
+                android:name=".Halo4"
+                android:exported="true">
+                <intent-filter>
+                    <action android:name="android.intent.action.MAIN" />
+
+                    <category android:name="android.intent.category.LAUNCHER" />
+                </intent-filter>
+            </activity>
+
         <!--Decoracion-->
         <activity
             android:name=".Decoracion"

@@ -13,7 +13,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        //Comentario prueba
+
         getSupportActionBar().hide();
 
         LinearLayout juguetes = findViewById(R.id.juguetes);

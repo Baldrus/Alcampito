@@ -6,13 +6,18 @@
     android:layout_height="match_parent"
     android:background="#FFFBE7">
 
-    <ImageView
-        android:layout_width="600dp"
-        android:layout_height="600dp"
-        android:src="@drawable/a_alcampo"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteY="66dp"
-        tools:layout_editor_absoluteX="-95dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="600dp"
+            android:layout_height="600dp"
+            android:src="@drawable/a_alcampo"
+            tools:ignore="MissingConstraints"/>
+
+    </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -49,7 +54,7 @@
 
         </ScrollView>
 
-        <Button
+        <androidx.appcompat.widget.AppCompatButton
             android:layout_width="136dp"
             android:layout_height="wrap_content"
             android:background="@drawable/esquinas_redondeadas"

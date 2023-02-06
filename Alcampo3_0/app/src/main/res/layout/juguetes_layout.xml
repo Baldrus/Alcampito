@@ -5,15 +5,21 @@
     android:layout_height="match_parent"
     android:background="#FFFBE7">
 
-    <ImageView
-        android:layout_width="600dp"
-        android:layout_height="600dp"
-        android:src="@drawable/a_alcampo"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteY="66dp"
-        tools:layout_editor_absoluteX="-95dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="600dp"
+            android:layout_height="600dp"
+            android:src="@drawable/a_alcampo"
+            tools:ignore="MissingConstraints"/>
+
+    </LinearLayout>
 
     <LinearLayout
+        android:id="@+id/linearLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
@@ -29,11 +35,11 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_margin="20dp"
                 android:text="Juguetes"
                 android:textColor="#E40613"
-                android:textStyle="bold"
                 android:textSize="45dp"
-                android:layout_margin="20dp"/>
+                android:textStyle="bold" />
 
         </LinearLayout>
 
@@ -58,15 +64,15 @@
                         android:id="@+id/furby"
                         android:layout_width="332dp"
                         android:layout_height="143dp"
-                        android:layout_marginBottom="30dp"
                         android:layout_marginTop="10dp"
+                        android:layout_marginBottom="30dp"
                         android:background="@drawable/esquinas_redondeadas"
                         android:gravity="center">
 
                         <ImageView
                             android:layout_width="156dp"
                             android:layout_height="126dp"
-                            android:src="@drawable/furby"/>
+                            android:src="@drawable/furby" />
 
                         <LinearLayout
                             android:layout_width="match_parent"
@@ -79,7 +85,7 @@
                                 android:text="FURBY"
                                 android:textAlignment="center"
                                 android:textColor="@color/black"
-                                android:textStyle="bold"/>
+                                android:textStyle="bold" />
 
                             <TextView
                                 android:layout_width="match_parent"
@@ -118,14 +124,14 @@
                                 android:text="DINOSAURIO"
                                 android:textAlignment="center"
                                 android:textColor="@color/black"
-                                android:textStyle="bold"/>
+                                android:textStyle="bold" />
 
                             <TextView
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:gravity="center_vertical"
-                                android:textColor="@color/black"
-                                android:text="¿Estás buscando un juguete divertido y emocionante para agregar a tu colección o para un niño en tu vida? ¡Entonces un dinosaurio de juguete es la opción perfecta!..."/>
+                                android:text="¿Estás buscando un juguete divertido y emocionante para agregar a tu colección o para un niño en tu vida? ¡Entonces un dinosaurio de juguete es la opción perfecta!..."
+                                android:textColor="@color/black" />
 
                         </LinearLayout>
 
@@ -143,7 +149,7 @@
                         <ImageView
                             android:layout_width="156dp"
                             android:layout_height="126dp"
-                            android:src="@drawable/rubik"/>
+                            android:src="@drawable/rubik" />
 
                         <LinearLayout
                             android:layout_width="match_parent"
@@ -156,14 +162,14 @@
                                 android:text="CUBO DE RUBIK"
                                 android:textAlignment="center"
                                 android:textColor="@color/black"
-                                android:textStyle="bold"/>
+                                android:textStyle="bold" />
 
                             <TextView
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:gravity="center_vertical"
-                                android:textColor="@color/black"
-                                android:text="Un clásico desafío para todas las edades. Ejercita la mente y tu habilidad espacial resolviendo este rompecabezas de combinación de colores. Gira los lados del cubo..."/>
+                                android:text="Un clásico desafío para todas las edades. Ejercita la mente y tu habilidad espacial resolviendo este rompecabezas de combinación de colores. Gira los lados del cubo..."
+                                android:textColor="@color/black" />
 
                         </LinearLayout>
 
@@ -181,7 +187,7 @@
                         <ImageView
                             android:layout_width="156dp"
                             android:layout_height="126dp"
-                            android:src="@drawable/halcon_milenario"/>
+                            android:src="@drawable/halcon_milenario" />
 
                         <LinearLayout
                             android:layout_width="match_parent"
@@ -193,17 +199,17 @@
                                 android:layout_height="wrap_content"
                                 android:text="LEGO HALCÓN MILENARIO"
                                 android:textAlignment="center"
-                                android:textSize="12dp"
                                 android:textColor="@color/black"
-                                android:textStyle="bold"/>
+                                android:textSize="12dp"
+                                android:textStyle="bold" />
 
                             <TextView
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:gravity="center_vertical"
-                                android:textColor="@color/black"
-                                android:text="Esta versión para construir del emblemático carguero Corelliano cuenta con numerosos detalles, como torretas defensivas superior e inferior giratorias, 2 cañones..."/>
-                                <!---->
+                                android:text="Esta versión para construir del emblemático carguero Corelliano cuenta con numerosos detalles, como torretas defensivas superior e inferior giratorias, 2 cañones..."
+                                android:textColor="@color/black" />
+                            <!---->
 
 
                         </LinearLayout>
@@ -222,7 +228,7 @@
                         <ImageView
                             android:layout_width="156dp"
                             android:layout_height="126dp"
-                            android:src="@drawable/scar"/>
+                            android:src="@drawable/scar" />
 
                         <LinearLayout
                             android:layout_width="match_parent"
@@ -235,14 +241,14 @@
                                 android:text="FUSIL FORTNITE"
                                 android:textAlignment="center"
                                 android:textColor="@color/black"
-                                android:textStyle="bold"/>
+                                android:textStyle="bold" />
 
                             <TextView
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:gravity="center_vertical"
-                                android:textColor="@color/black"
-                                android:text="Réplica del lanzado de dardos Fortnite: El lanzador AR-L está inspirado en el lanzador que se usa en el videojuego Fortnite Battle Royale y reproduce..."/>
+                                android:text="Réplica del lanzado de dardos Fortnite: El lanzador AR-L está inspirado en el lanzador que se usa en el videojuego Fortnite Battle Royale y reproduce..."
+                                android:textColor="@color/black" />
 
                         </LinearLayout>
 
@@ -260,7 +266,7 @@
                         <ImageView
                             android:layout_width="156dp"
                             android:layout_height="126dp"
-                            android:src="@drawable/scalextric"/>
+                            android:src="@drawable/scalextric" />
 
                         <LinearLayout
                             android:layout_width="match_parent"
@@ -273,15 +279,15 @@
                                 android:text="SCALEXTRIC"
                                 android:textAlignment="center"
                                 android:textColor="@color/black"
-                                android:textStyle="bold"/>
+                                android:textStyle="bold" />
 
                             <TextView
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:gravity="center_vertical"
-                                android:textColor="@color/black"
-                                android:text="Scalextric Advance pone en tus manos en la escala reina 1:32 toda la potencia de los sistemas digitales conocidos, pero da un salto tecnológico a nivel prestaciones..."/>
-                                <!--Fabicante: Rally Cross\nPrecio: 209,99€\nScalextric Advance pone en tus manos en la escala reina 1:32 toda la potencia de los sistemas digitales conocidos, pero da un salto tecnológico a nivel prestaciones en la sensibilidad y el control del coche en carrera. La conexión a Smartphone y Tablet te permite el setup de los coches y carreras con las pistas Bluetooth (E1029X200). Incluye dos Audi S1 WRX, pistas de cambio de carril para realizar grandes adelantamientos.-->
+                                android:text="Scalextric Advance pone en tus manos en la escala reina 1:32 toda la potencia de los sistemas digitales conocidos, pero da un salto tecnológico a nivel prestaciones..."
+                                android:textColor="@color/black" />
+                            <!--Fabicante: Rally Cross\nPrecio: 209,99€\nScalextric Advance pone en tus manos en la escala reina 1:32 toda la potencia de los sistemas digitales conocidos, pero da un salto tecnológico a nivel prestaciones en la sensibilidad y el control del coche en carrera. La conexión a Smartphone y Tablet te permite el setup de los coches y carreras con las pistas Bluetooth (E1029X200). Incluye dos Audi S1 WRX, pistas de cambio de carril para realizar grandes adelantamientos.-->
 
                         </LinearLayout>
 
