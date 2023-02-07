@@ -48,13 +48,14 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Género: Survival Horror\nCompañía: CAPCOM\nPlataformas: PS4, XBOX ONE\nPrecio: 39,99€\n\n"
+                android:text="Género: Ciencia ficción\nCompañía: Bungie Studios\nPlataformas: XBOX 360, XBOX ONE\nPrecio: 19,99€\n\nHalo 4 es el primer juego de la saga del Jefe Maestro hecha por el nuevo equipo de desarrollo, comandado directamente por Microsoft. Se trata de una continuación directa de los sucesos ocurridos en Halo 3, que inicia una nueva trilogía de juegos protagonizados por el Jefe Maestro.\n\nEn Halo 4 sabremos más sobre la personalidad del protagonista, aunque sus orígenes seguirán siendo un misterio. Visitaremos un planeta de los Forerunners, los creadores de los anillos Halo, y volveremos a luchar contra el Covenant y otros enemigos."
                 android:textColor="@color/black"
                 android:textSize="20dp"/>
 
         </ScrollView>
 
         <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/comprar"
             android:layout_width="136dp"
             android:layout_height="wrap_content"
             android:background="@drawable/esquinas_redondeadas"

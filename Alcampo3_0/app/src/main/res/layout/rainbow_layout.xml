@@ -48,13 +48,14 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Género: Survival Horror\nCompañía: CAPCOM\nPlataformas: PS4, XBOX ONE\nPrecio: 39,99€\n\n"
+                android:text="Género: Shooter táctico\nCompañía: UBISOFT\nPlataformas: PS4, PS5, XBOX ONE, PC\nPrecio: 24,99€\n\nDomina el arte de la destrucción y los distintos dispositivos en Tom Clancy’s Rainbow Six: Siege. Enfréntate en intensos combates de rango cercano, y disfruta en todo momento de una acción explosiva y letal, basada en la toma de decisiones tácticas y el trabajo en equipo.\n\nDescubre un estilo de asalto completamente nuevo, en el que podrás usar un arsenal de dispositivos y herramientas de destrucción sin igual. Al defender, coordínate con tu equipo para convertir tu entorno en una fortaleza. Crea sistemas defensivos con trampas y fortificaciones que impedirán al enemigo asaltarte. Si te toca atacar, podrás liderar a tu equipo a través de pasillos estrechos, barricadas y muros reforzados. Aprovecha los mapas tácticos, usa drones de observación o haz rápel para planear, atacar y salir airoso de cualquier situación."
                 android:textColor="@color/black"
                 android:textSize="20dp"/>
 
         </ScrollView>
 
         <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/comprar"
             android:layout_width="136dp"
             android:layout_height="wrap_content"
             android:background="@drawable/esquinas_redondeadas"

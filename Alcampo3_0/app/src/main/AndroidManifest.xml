@@ -12,7 +12,17 @@
         android:theme="@style/Theme.Alcampo3_0"
         tools:targetApi="31">
 
-        <!--Main Activity-->
+        <activity
+            android:name=".PopUpGracias"
+            android:exported="false"
+            android:theme="@style/PopUp"/>
+
+        <activity
+            android:name=".PopUpConfirmar"
+            android:exported="false"
+            android:theme="@style/PopUp"/>
+
+        <!-- Main Activity -->
         <activity
             android:name=".MainActivity"
             android:exported="true">
@@ -23,7 +33,7 @@
             </intent-filter>
         </activity>
 
-        <!--Juguetes-->
+        <!-- Juguetes -->
         <activity
             android:name=".juguetes.Juguetes"
             android:exported="true">
@@ -34,7 +44,7 @@
             </intent-filter>
         </activity>
 
-            <!--Furby-->
+            <!-- Furby -->
             <activity
                 android:name=".juguetes.Furby"
                 android:exported="true">
@@ -45,7 +55,7 @@
                 </intent-filter>
             </activity>
 
-            <!--Dinosaurio-->
+            <!-- Dinosaurio -->
             <activity
                 android:name=".juguetes.Dinosaurio"
                 android:exported="true">
@@ -56,7 +66,7 @@
                 </intent-filter>
             </activity>
 
-            <!--Rubik-->
+            <!-- Rubik -->
             <activity
                 android:name=".juguetes.Rubik"
                 android:exported="true">
@@ -67,7 +77,7 @@
                 </intent-filter>
             </activity>
 
-            <!--Halcon Milenario-->
+            <!-- Halcon Milenario -->
             <activity
                 android:name=".juguetes.Halcon"
                 android:exported="true">
@@ -78,7 +88,7 @@
                 </intent-filter>
             </activity>
 
-            <!--Fusil Fortnite-->
+            <!-- Fusil Fortnite -->
             <activity
                 android:name=".juguetes.Scar"
                 android:exported="true">
@@ -89,7 +99,7 @@
                 </intent-filter>
             </activity>
 
-            <!--Scalextric-->
+            <!-- Scalextric -->
             <activity
                 android:name=".juguetes.Scalextric"
                 android:exported="true">
@@ -100,7 +110,7 @@
                 </intent-filter>
             </activity>
 
-        <!--Videojuegos-->
+        <!-- Videojuegos -->
         <activity
             android:name=".videojuegos.Videojuegos"
             android:exported="true">
@@ -111,7 +121,7 @@
             </intent-filter>
         </activity>
 
-            <!--Resident Evil 2-->
+            <!-- Resident Evil 2 -->
             <activity
                 android:name=".videojuegos.RE2"
                 android:exported="true">
@@ -122,7 +132,7 @@
                 </intent-filter>
             </activity>
 
-            <!--Rainbow Six Siegue-->
+            <!-- Rainbow Six Siegue -->
             <activity
                 android:name=".videojuegos.Rainbow"
                 android:exported="true">
@@ -133,7 +143,7 @@
                 </intent-filter>
             </activity>
 
-            <!--F1 2022-->
+            <!-- F1 2022 -->
             <activity
                 android:name=".videojuegos.F1"
                 android:exported="true">
@@ -144,7 +154,7 @@
                 </intent-filter>
             </activity>
 
-            <!--Mario Bros-->
+            <!-- Mario Bros -->
             <activity
                 android:name=".videojuegos.MarioBros"
                 android:exported="true">
@@ -155,7 +165,7 @@
                 </intent-filter>
             </activity>
 
-            <!--God of War-->
+            <!-- God of War -->
             <activity
                 android:name=".videojuegos.GoW"
                 android:exported="true">
@@ -166,7 +176,7 @@
                 </intent-filter>
             </activity>
 
-            <!--Halo 4-->
+            <!-- Halo 4 -->
             <activity
                 android:name=".videojuegos.Halo4"
                 android:exported="true">
@@ -177,7 +187,7 @@
                 </intent-filter>
             </activity>
 
-        <!--Decoracion-->
+        <!-- Decoracion -->
         <activity
             android:name=".decoracion.Decoracion"
             android:exported="true">
@@ -188,7 +198,73 @@
             </intent-filter>
         </activity>
 
-        <!--Perfumeria-->
+            <!-- Jarron -->
+            <activity
+                android:name=".decoracion.Jarron"
+                android:exported="true">
+                <intent-filter>
+                    <action android:name="android.intent.action.MAIN" />
+
+                    <category android:name="android.intent.category.LAUNCHER" />
+                </intent-filter>
+            </activity>
+
+            <!-- Cuadro -->
+            <activity
+                android:name=".decoracion.Cuadro"
+                android:exported="true">
+                <intent-filter>
+                    <action android:name="android.intent.action.MAIN" />
+
+                    <category android:name="android.intent.category.LAUNCHER" />
+                </intent-filter>
+            </activity>
+
+            <!-- Tapiz -->
+            <activity
+                android:name=".decoracion.Tapiz"
+                android:exported="true">
+                <intent-filter>
+                    <action android:name="android.intent.action.MAIN" />
+
+                    <category android:name="android.intent.category.LAUNCHER" />
+                </intent-filter>
+            </activity>
+
+            <!-- Alfombra -->
+            <activity
+                android:name=".decoracion.Alfombra"
+                android:exported="true">
+                <intent-filter>
+                    <action android:name="android.intent.action.MAIN" />
+
+                    <category android:name="android.intent.category.LAUNCHER" />
+                </intent-filter>
+            </activity>
+
+            <!-- Figura -->
+            <activity
+                android:name=".decoracion.Figura"
+                android:exported="true">
+                <intent-filter>
+                    <action android:name="android.intent.action.MAIN" />
+
+                    <category android:name="android.intent.category.LAUNCHER" />
+                </intent-filter>
+            </activity>
+
+            <!-- Espejo -->
+            <activity
+                android:name=".decoracion.Espejo"
+                android:exported="true">
+                <intent-filter>
+                    <action android:name="android.intent.action.MAIN" />
+
+                    <category android:name="android.intent.category.LAUNCHER" />
+                </intent-filter>
+            </activity>
+
+        <!-- Perfumeria -->
         <activity
             android:name=".perfumeria.Perfumeria"
             android:exported="true">
@@ -198,6 +274,73 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+            <!-- Olvidona -->
+            <activity
+                android:name=".perfumeria.Olvidona"
+                android:exported="true">
+                <intent-filter>
+                    <action android:name="android.intent.action.MAIN" />
+
+                    <category android:name="android.intent.category.LAUNCHER" />
+                </intent-filter>
+            </activity>
+
+            <!-- Hugo Boss -->
+            <activity
+                android:name=".perfumeria.HugoBoss"
+                android:exported="true">
+                <intent-filter>
+                    <action android:name="android.intent.action.MAIN" />
+
+                    <category android:name="android.intent.category.LAUNCHER" />
+                </intent-filter>
+            </activity>
+
+            <!-- Calvin Klein -->
+            <activity
+                android:name=".perfumeria.CK"
+                android:exported="true">
+                <intent-filter>
+                    <action android:name="android.intent.action.MAIN" />
+
+                    <category android:name="android.intent.category.LAUNCHER" />
+                </intent-filter>
+            </activity>
+
+            <!-- Play Boy -->
+            <activity
+                android:name=".perfumeria.PlayBoy"
+                android:exported="true">
+                <intent-filter>
+                    <action android:name="android.intent.action.MAIN" />
+
+                    <category android:name="android.intent.category.LAUNCHER" />
+                </intent-filter>
+            </activity>
+
+            <!-- Dolce Gabbana -->
+            <activity
+                android:name=".perfumeria.Dolce"
+                android:exported="true">
+                <intent-filter>
+                    <action android:name="android.intent.action.MAIN" />
+
+                    <category android:name="android.intent.category.LAUNCHER" />
+                </intent-filter>
+            </activity>
+
+            <!-- Chanel -->
+            <activity
+                android:name=".perfumeria.Chanel"
+                android:exported="true">
+                <intent-filter>
+                    <action android:name="android.intent.action.MAIN" />
+
+                    <category android:name="android.intent.category.LAUNCHER" />
+                </intent-filter>
+            </activity>
+
 
     </application>
 

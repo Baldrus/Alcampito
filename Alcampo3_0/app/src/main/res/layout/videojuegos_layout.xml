@@ -90,7 +90,7 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:gravity="center_vertical"
-                                android:text="Puesta al día del clásico original del género survival horror. Supone un cambio de perspectiva jugable, de estilo, un concepto muy ambicioso desde el..."
+                                android:text="Puesta al día del clásico original del género survival horror. Supone un cambio de perspectiva jugable, de estilo, un concepto muy..."
                                 android:textColor="@color/black" />
 
                         </LinearLayout>
@@ -128,7 +128,8 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:gravity="center_vertical"
-                                android:textColor="@color/black" />
+                                android:textColor="@color/black"
+                                android:text="Domina el arte de la destrucción y los distintos dispositivos en Tom Clancy’s Rainbow Six: Siege. Enfréntate en intensos combates de..."/>
 
                         </LinearLayout>
 
@@ -165,7 +166,8 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:gravity="center_vertical"
-                                android:textColor="@color/black" />
+                                android:textColor="@color/black"
+                                android:text="Este videojuego de carreras de te permite experimentar la emoción y la velocidad de la competición de Fórmula 1. El juego incluye todos..."/>
 
                         </LinearLayout>
 
@@ -202,7 +204,8 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:gravity="center_vertical"
-                                android:textColor="@color/black" />
+                                android:textColor="@color/black"
+                                android:text="Por fin una aventura de Mario de las de toda la vida, pero con toques nuevos. Los desarrolladores en Nintendo llevan años..."/>
 
                         </LinearLayout>
 
@@ -239,7 +242,8 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:gravity="center_vertical"
-                                android:textColor="@color/black" />
+                                android:textColor="@color/black"
+                                android:text="En God of War: Ragnarok, Kratos y su hijo Atreus deben enfrentarse a una serie de desafiantes enemigos y superar obstáculos épicos..."/>
 
                         </LinearLayout>
 
@@ -276,7 +280,8 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:gravity="center_vertical"
-                                android:textColor="@color/black" />
+                                android:textColor="@color/black"
+                                android:text="Halo 4 es el primer juego de la saga del Jefe Maestro hecha por el nuevo equipo de desarrollo, comandado directamente por..."/>
 
                         </LinearLayout>
 

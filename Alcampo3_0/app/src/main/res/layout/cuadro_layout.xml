@@ -28,17 +28,17 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Lego Halcon Milenario"
+            android:text="Cuadro"
             android:textColor="#E40613"
             android:textStyle="bold"
-            android:textSize="35dp"
+            android:textSize="45dp"
             android:layout_margin="20dp"
             android:textAlignment="center"/>
 
         <ImageView
             android:layout_width="195dp"
             android:layout_height="186dp"
-            android:src="@drawable/halcon_milenario"/>
+            android:src="@drawable/monalisa"/>
 
         <ScrollView
             android:layout_width="match_parent"
@@ -48,7 +48,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Fabricante: LEGO\nEdad: 9+\nPrecio: 169,99€\n\nEsta versión para construir del emblemático carguero Corelliano cuenta con numerosos detalles, como torretas defensivas superior e inferior giratorias, 2 cañones automáticos, una rampa descendente y una cabina abatible con espacio para 2 minifiguras. Los paneles superiores también se abren para acceder a un detallado interior en el que tu peque podrá tomar los mandos y disfrutar interpretando escenas de la película Star Wars: El Ascenso de Skywalker con Finn, Chewbacca, Lando Calrissian, Boolio, C-3PO, R2-D2 y D-O, los personajes de Star Wars. Este emblemático set LEGO Star Wars es también una fantástica pieza de colección que encantará a cualquier fan."
+                android:text="Género: Plataformas\nCompañía: Nintendo\nPlataformas: WII, Nintendo Switch\nPrecio: 39,99€\n\nPor fin una aventura de Mario de las de toda la vida, pero con toques nuevos. Los desarrolladores en Nintendo llevan años soñando con crear un título de Super Mario Bros. con multijugador simultáneo. Ahora la consola Wii hace este sueño posible para todo el mundo para navidades este año.\n\nViaja por mundos de desplazamiento lateral solo o con hasta otros tres amigos, al mismo tiempo, en el mismo nivel y en cualquier punto del juego para disfrutar del título de forma cooperativa o competitiva.\n\nCon el modo multijugador, la nueva entrega de la saga de videojuegos más famosa promete traer al cuarto de estar una nueva forma de entretenimiento para toda la familia y enganchar a grupos de amigos a la diversión frenética de Super Mario Bros."
                 android:textColor="@color/black"
                 android:textSize="20dp"/>
 

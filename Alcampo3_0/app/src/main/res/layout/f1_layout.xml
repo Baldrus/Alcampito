@@ -48,13 +48,14 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Género: Survival Horror\nCompañía: CAPCOM\nPlataformas: PS4, XBOX ONE\nPrecio: 39,99€\n\n"
+                android:text="Género: Carreras\nCompañía: Electronic Arts\nPlataformas: PS4, PS5, XBOX ONE, PC\nPrecio: 59,99€\n\nEste videojuego de carreras de te permite experimentar la emoción y la velocidad de la competición de Fórmula 1. El juego incluye todos los equipos, pilotos y circuitos oficiales de la temporada 2022 de Fórmula 1.\n\nFórmula 1 2022, puedes personalizar tu auto y mejorar su rendimiento para competir contra otros jugadores en línea o participar en carreras solo. Además, el juego ofrece un modo de carrera completo que te permite vivir la vida de un piloto de Fórmula 1, desde la negociación del contrato hasta la conquista del campeonato.\n\nEl juego también ofrece gráficos impresionantes y realistas que te sumergen en la acción de la carrera, con efectos de luz y sombras, detalles de los autos y los paisajes, y un sistema de física realista que asegura que cada curva y cada aceleración se sientan auténticos.\n\nEn resumen, Fórmula 1 2022 es un juego emocionante y desafiante para cualquier fanático de la Fórmula 1 o de los juegos de carreras. ¡Ponte detrás del volante y experimenta la velocidad y la emoción de la Fórmula 1 hoy mismo!"
                 android:textColor="@color/black"
                 android:textSize="20dp"/>
 
         </ScrollView>
 
         <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/comprar"
             android:layout_width="136dp"
             android:layout_height="wrap_content"
             android:background="@drawable/esquinas_redondeadas"

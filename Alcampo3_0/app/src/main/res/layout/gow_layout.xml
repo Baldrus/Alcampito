@@ -48,13 +48,14 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Género: Survival Horror\nCompañía: CAPCOM\nPlataformas: PS4, PS5\nPrecio: 39,99€\n\n"
+                android:text="Género: Hack N' Slash\nCompañía: SONY\nPlataformas: PS4, PS5\nPrecio: 69,99€\n\nEn God of War: Ragnarok, Kratos y su hijo Atreus deben enfrentarse a una serie de desafiantes enemigos y superar obstáculos épicos para completar su viaje. El juego presenta un sistema de combate renovado con armas y habilidades nuevas y mejoradas, y un sistema de personalización de equipo que te permite mejorar tus habilidades y tus armas.\n\nAdemás, God of War: Ragnarok presenta un mundo abierto épico y detallado que te permite explorar y descubrir la mitología nórdica. Con paisajes impresionantes, personajes interesantes y una trama épica, este juego te llevará en una aventura inolvidable.\n\nEn resumen, God of War: Ragnarok es un juego impresionante y emocionante para cualquier fanático de los juegos de acción y aventura. ¡Prepárate para una aventura épica en los mundos nórdicos mitológicos y vive la leyenda de Kratos hoy mismo!"
                 android:textColor="@color/black"
                 android:textSize="20dp"/>
 
         </ScrollView>
 
         <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/comprar"
             android:layout_width="136dp"
             android:layout_height="wrap_content"
             android:background="@drawable/esquinas_redondeadas"
