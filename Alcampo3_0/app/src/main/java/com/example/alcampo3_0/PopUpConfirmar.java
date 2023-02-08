@@ -23,7 +23,7 @@ public class PopUpConfirmar extends AppCompatActivity {
         int ancho=medidasVentana.widthPixels;
         int alto=medidasVentana.heightPixels;
 
-        getWindow().setLayout((int)(ancho*0.8),(int)(alto*0.5));
+        getWindow().setLayout((int)(ancho*0.8),(int)(alto*0.4));
 
 
         AppCompatButton confirmar =findViewById(R.id.aceptar);

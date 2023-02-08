@@ -8,9 +8,11 @@ import android.widget.LinearLayout;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.alcampo3_0.MainActivity;
 import com.example.alcampo3_0.R;
 import com.example.alcampo3_0.decoracion.Decoracion;
 import com.example.alcampo3_0.decoracion.Jarron;
+import com.example.alcampo3_0.juguetes.Halcon;
 
 public class Perfumeria extends AppCompatActivity {
     @Override
@@ -71,6 +73,15 @@ public class Perfumeria extends AppCompatActivity {
             public void onClick(View view) {
                 Intent ch = new Intent(Perfumeria.this, Chanel.class);
                 startActivity(ch);
+            }
+        });
+
+        LinearLayout home = findViewById(R.id.home);
+        home.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent MA = new Intent(Perfumeria.this, MainActivity.class);
+                startActivity(MA);
             }
         });
 

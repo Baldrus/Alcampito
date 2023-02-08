@@ -7,6 +7,7 @@ import android.widget.LinearLayout;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.alcampo3_0.MainActivity;
 import com.example.alcampo3_0.R;
 
 public class Juguetes extends AppCompatActivity {
@@ -68,6 +69,15 @@ public class Juguetes extends AppCompatActivity {
             public void onClick(View view) {
                 Intent scal = new Intent(Juguetes.this, Scalextric.class);
                 startActivity(scal);
+            }
+        });
+
+        LinearLayout home = findViewById(R.id.home);
+        home.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent MA = new Intent(Juguetes.this, MainActivity.class);
+                startActivity(MA);
             }
         });
 

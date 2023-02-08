@@ -1,12 +1,15 @@
 package com.example.alcampo3_0.videojuegos;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.alcampo3_0.MainActivity;
 import com.example.alcampo3_0.R;
 
 public class Videojuegos extends AppCompatActivity {
@@ -69,6 +72,15 @@ public class Videojuegos extends AppCompatActivity {
             public void onClick(View view) {
                 Intent h4 = new Intent(Videojuegos.this, Halo4.class);
                 startActivity(h4);
+            }
+        });
+
+        LinearLayout home = findViewById(R.id.home);
+        home.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent MA = new Intent(Videojuegos.this, MainActivity.class);
+                startActivity(MA);
             }
         });
 

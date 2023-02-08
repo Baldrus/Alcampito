@@ -8,6 +8,7 @@ import android.widget.LinearLayout;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.alcampo3_0.MainActivity;
 import com.example.alcampo3_0.R;
 import com.example.alcampo3_0.juguetes.Furby;
 import com.example.alcampo3_0.juguetes.Juguetes;
@@ -72,6 +73,15 @@ public class Decoracion extends AppCompatActivity {
             public void onClick(View view) {
                 Intent esp = new Intent(Decoracion.this, Espejo.class);
                 startActivity(esp);
+            }
+        });
+
+        LinearLayout home = findViewById(R.id.home);
+        home.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent MA = new Intent(Decoracion.this, MainActivity.class);
+                startActivity(MA);
             }
         });
 

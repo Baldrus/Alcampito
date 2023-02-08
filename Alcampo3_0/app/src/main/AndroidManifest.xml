@@ -15,12 +15,12 @@
         <activity
             android:name=".PopUpGracias"
             android:exported="true"
-            android:theme="@style/PopUp"/>
+            android:theme="@style/Theme.AppCompat.PopUp2"/>
 
         <activity
             android:name=".PopUpConfirmar"
             android:exported="true"
-            android:theme="@style/PopUp"/>
+            android:theme="@style/Theme.AppCompat.PopUp1"/>
 
         <!-- Main Activity -->
         <activity
