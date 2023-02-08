@@ -99,7 +99,7 @@
 
                     <!--Hugo Boss-->
                     <LinearLayout
-                        android:id="@+id/dino"
+                        android:id="@+id/hugoboss"
                         android:layout_width="332dp"
                         android:layout_height="143dp"
                         android:layout_marginBottom="30dp"
@@ -136,7 +136,7 @@
 
                     <!--Calvin Klein-->
                     <LinearLayout
-                        android:id="@+id/rubik"
+                        android:id="@+id/ck"
                         android:layout_width="332dp"
                         android:layout_height="143dp"
                         android:layout_marginBottom="30dp"
@@ -173,7 +173,7 @@
 
                     <!--Play Boy-->
                     <LinearLayout
-                        android:id="@+id/halcon"
+                        android:id="@+id/playboy"
                         android:layout_width="332dp"
                         android:layout_height="143dp"
                         android:layout_marginBottom="30dp"
@@ -210,7 +210,7 @@
 
                     <!--Dolce & Gabbana-->
                     <LinearLayout
-                        android:id="@+id/fusil"
+                        android:id="@+id/dolce"
                         android:layout_width="332dp"
                         android:layout_height="143dp"
                         android:layout_marginBottom="30dp"
@@ -247,7 +247,7 @@
 
                     <!--Chanel-->
                     <LinearLayout
-                        android:id="@+id/scalextric"
+                        android:id="@+id/chanel"
                         android:layout_width="332dp"
                         android:layout_height="143dp"
                         android:layout_marginBottom="30dp"

@@ -19,8 +19,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="¿Está seguro de que quiere comprar este producto?"
-            android:textSize="30dp"
+            android:textSize="20dp"
             tools:ignore="MissingConstraints"
+            android:textColor="@color/black"
             android:textAlignment="center"/>
 
         <LinearLayout
@@ -28,7 +29,7 @@
             android:layout_height="wrap_content"
             android:orientation="horizontal"
             android:gravity="center"
-            android:layout_marginTop="50dp">
+            android:layout_marginTop="140dp">
 
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -37,7 +38,7 @@
 
                 <androidx.appcompat.widget.AppCompatButton
                     android:id="@+id/cancelar"
-                    android:layout_width="136dp"
+                    android:layout_width="120dp"
                     android:layout_height="wrap_content"
                     android:background="@drawable/esquinas_redondeadas"
                     android:text="CANCELAR"
@@ -53,7 +54,7 @@
 
                 <androidx.appcompat.widget.AppCompatButton
                     android:id="@+id/aceptar"
-                    android:layout_width="136dp"
+                    android:layout_width="120dp"
                     android:layout_height="wrap_content"
                     android:background="@drawable/esquinas_redondeadas"
                     android:text="ACEPTAR"

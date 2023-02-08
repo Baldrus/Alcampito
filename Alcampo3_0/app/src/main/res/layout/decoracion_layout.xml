@@ -60,7 +60,7 @@
 
                     <!--Jarron-->
                     <LinearLayout
-                        android:id="@+id/furby"
+                        android:id="@+id/jarron"
                         android:layout_width="332dp"
                         android:layout_height="143dp"
                         android:layout_marginBottom="30dp"
@@ -98,7 +98,7 @@
 
                     <!--Cuadro-->
                     <LinearLayout
-                        android:id="@+id/dino"
+                        android:id="@+id/cuadro"
                         android:layout_width="332dp"
                         android:layout_height="143dp"
                         android:layout_marginBottom="30dp"
@@ -135,7 +135,7 @@
 
                     <!--Tapiz-->
                     <LinearLayout
-                        android:id="@+id/rubik"
+                        android:id="@+id/tapiz"
                         android:layout_width="332dp"
                         android:layout_height="143dp"
                         android:layout_marginBottom="30dp"
@@ -173,7 +173,7 @@
 
                     <!--Alfombra-->
                     <LinearLayout
-                        android:id="@+id/halcon"
+                        android:id="@+id/alfombra"
                         android:layout_width="332dp"
                         android:layout_height="143dp"
                         android:layout_marginBottom="30dp"
@@ -210,7 +210,7 @@
 
                     <!--Figura-->
                     <LinearLayout
-                        android:id="@+id/fusil"
+                        android:id="@+id/figura"
                         android:layout_width="332dp"
                         android:layout_height="143dp"
                         android:layout_marginBottom="30dp"
@@ -247,7 +247,7 @@
 
                     <!--Espejo-->
                     <LinearLayout
-                        android:id="@+id/scalextric"
+                        android:id="@+id/espejo"
                         android:layout_width="332dp"
                         android:layout_height="143dp"
                         android:layout_marginBottom="30dp"

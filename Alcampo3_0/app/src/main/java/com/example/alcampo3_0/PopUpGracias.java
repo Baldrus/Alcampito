@@ -1,9 +1,12 @@
 package com.example.alcampo3_0;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.AppCompatButton;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.DisplayMetrics;
+import android.view.View;
 
 public class PopUpGracias extends AppCompatActivity {
 
@@ -19,5 +22,15 @@ public class PopUpGracias extends AppCompatActivity {
         int alto=medidasVentana.heightPixels;
 
         getWindow().setLayout((int)(ancho*0.8),(int)(alto*0.5));
+
+        AppCompatButton continuar =findViewById(R.id.continuar);
+
+        continuar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent conf = new Intent(PopUpGracias.this, MainActivity.class);
+                startActivity(conf);
+            }
+        });
     }
 }

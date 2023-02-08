@@ -14,12 +14,12 @@
 
         <activity
             android:name=".PopUpGracias"
-            android:exported="false"
+            android:exported="true"
             android:theme="@style/PopUp"/>
 
         <activity
             android:name=".PopUpConfirmar"
-            android:exported="false"
+            android:exported="true"
             android:theme="@style/PopUp"/>
 
         <!-- Main Activity -->
@@ -36,310 +36,142 @@
         <!-- Juguetes -->
         <activity
             android:name=".juguetes.Juguetes"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+            android:exported="true"/>
 
             <!-- Furby -->
             <activity
                 android:name=".juguetes.Furby"
-                android:exported="true">
-                <intent-filter>
-                    <action android:name="android.intent.action.MAIN" />
-
-                    <category android:name="android.intent.category.LAUNCHER" />
-                </intent-filter>
-            </activity>
-
+                android:exported="true"/>
             <!-- Dinosaurio -->
             <activity
                 android:name=".juguetes.Dinosaurio"
-                android:exported="true">
-                <intent-filter>
-                    <action android:name="android.intent.action.MAIN" />
-
-                    <category android:name="android.intent.category.LAUNCHER" />
-                </intent-filter>
-            </activity>
+                android:exported="true"/>
 
             <!-- Rubik -->
             <activity
                 android:name=".juguetes.Rubik"
                 android:exported="true">
-                <intent-filter>
-                    <action android:name="android.intent.action.MAIN" />
-
-                    <category android:name="android.intent.category.LAUNCHER" />
-                </intent-filter>
             </activity>
 
             <!-- Halcon Milenario -->
             <activity
                 android:name=".juguetes.Halcon"
-                android:exported="true">
-                <intent-filter>
-                    <action android:name="android.intent.action.MAIN" />
-
-                    <category android:name="android.intent.category.LAUNCHER" />
-                </intent-filter>
-            </activity>
+                android:exported="true"/>
 
             <!-- Fusil Fortnite -->
             <activity
                 android:name=".juguetes.Scar"
-                android:exported="true">
-                <intent-filter>
-                    <action android:name="android.intent.action.MAIN" />
-
-                    <category android:name="android.intent.category.LAUNCHER" />
-                </intent-filter>
-            </activity>
+                android:exported="true"/>
 
             <!-- Scalextric -->
             <activity
                 android:name=".juguetes.Scalextric"
-                android:exported="true">
-                <intent-filter>
-                    <action android:name="android.intent.action.MAIN" />
-
-                    <category android:name="android.intent.category.LAUNCHER" />
-                </intent-filter>
-            </activity>
+                android:exported="true"/>
 
         <!-- Videojuegos -->
         <activity
             android:name=".videojuegos.Videojuegos"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+            android:exported="true"/>
 
             <!-- Resident Evil 2 -->
             <activity
                 android:name=".videojuegos.RE2"
-                android:exported="true">
-                <intent-filter>
-                    <action android:name="android.intent.action.MAIN" />
-
-                    <category android:name="android.intent.category.LAUNCHER" />
-                </intent-filter>
-            </activity>
+                android:exported="true"/>
 
             <!-- Rainbow Six Siegue -->
             <activity
                 android:name=".videojuegos.Rainbow"
-                android:exported="true">
-                <intent-filter>
-                    <action android:name="android.intent.action.MAIN" />
-
-                    <category android:name="android.intent.category.LAUNCHER" />
-                </intent-filter>
-            </activity>
+                android:exported="true"/>
 
             <!-- F1 2022 -->
             <activity
                 android:name=".videojuegos.F1"
-                android:exported="true">
-                <intent-filter>
-                    <action android:name="android.intent.action.MAIN" />
-
-                    <category android:name="android.intent.category.LAUNCHER" />
-                </intent-filter>
-            </activity>
+                android:exported="true"/>
 
             <!-- Mario Bros -->
             <activity
                 android:name=".videojuegos.MarioBros"
-                android:exported="true">
-                <intent-filter>
-                    <action android:name="android.intent.action.MAIN" />
-
-                    <category android:name="android.intent.category.LAUNCHER" />
-                </intent-filter>
-            </activity>
+                android:exported="true"/>
 
             <!-- God of War -->
             <activity
                 android:name=".videojuegos.GoW"
-                android:exported="true">
-                <intent-filter>
-                    <action android:name="android.intent.action.MAIN" />
-
-                    <category android:name="android.intent.category.LAUNCHER" />
-                </intent-filter>
-            </activity>
+                android:exported="true"/>
 
             <!-- Halo 4 -->
             <activity
                 android:name=".videojuegos.Halo4"
-                android:exported="true">
-                <intent-filter>
-                    <action android:name="android.intent.action.MAIN" />
-
-                    <category android:name="android.intent.category.LAUNCHER" />
-                </intent-filter>
-            </activity>
+                android:exported="true"/>
 
         <!-- Decoracion -->
         <activity
             android:name=".decoracion.Decoracion"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+            android:exported="true"/>
 
             <!-- Jarron -->
             <activity
                 android:name=".decoracion.Jarron"
-                android:exported="true">
-                <intent-filter>
-                    <action android:name="android.intent.action.MAIN" />
-
-                    <category android:name="android.intent.category.LAUNCHER" />
-                </intent-filter>
-            </activity>
+                android:exported="true"/>
 
             <!-- Cuadro -->
             <activity
                 android:name=".decoracion.Cuadro"
-                android:exported="true">
-                <intent-filter>
-                    <action android:name="android.intent.action.MAIN" />
-
-                    <category android:name="android.intent.category.LAUNCHER" />
-                </intent-filter>
-            </activity>
+                android:exported="true"/>
 
             <!-- Tapiz -->
             <activity
                 android:name=".decoracion.Tapiz"
-                android:exported="true">
-                <intent-filter>
-                    <action android:name="android.intent.action.MAIN" />
-
-                    <category android:name="android.intent.category.LAUNCHER" />
-                </intent-filter>
-            </activity>
+                android:exported="true"/>
 
             <!-- Alfombra -->
             <activity
                 android:name=".decoracion.Alfombra"
-                android:exported="true">
-                <intent-filter>
-                    <action android:name="android.intent.action.MAIN" />
-
-                    <category android:name="android.intent.category.LAUNCHER" />
-                </intent-filter>
-            </activity>
+                android:exported="true"/>
 
             <!-- Figura -->
             <activity
                 android:name=".decoracion.Figura"
-                android:exported="true">
-                <intent-filter>
-                    <action android:name="android.intent.action.MAIN" />
-
-                    <category android:name="android.intent.category.LAUNCHER" />
-                </intent-filter>
-            </activity>
+                android:exported="true"/>
 
             <!-- Espejo -->
             <activity
                 android:name=".decoracion.Espejo"
-                android:exported="true">
-                <intent-filter>
-                    <action android:name="android.intent.action.MAIN" />
-
-                    <category android:name="android.intent.category.LAUNCHER" />
-                </intent-filter>
-            </activity>
+                android:exported="true"/>
 
         <!-- Perfumeria -->
         <activity
             android:name=".perfumeria.Perfumeria"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+            android:exported="true"/>
 
             <!-- Olvidona -->
             <activity
                 android:name=".perfumeria.Olvidona"
-                android:exported="true">
-                <intent-filter>
-                    <action android:name="android.intent.action.MAIN" />
-
-                    <category android:name="android.intent.category.LAUNCHER" />
-                </intent-filter>
-            </activity>
+                android:exported="true"/>
 
             <!-- Hugo Boss -->
             <activity
                 android:name=".perfumeria.HugoBoss"
-                android:exported="true">
-                <intent-filter>
-                    <action android:name="android.intent.action.MAIN" />
-
-                    <category android:name="android.intent.category.LAUNCHER" />
-                </intent-filter>
-            </activity>
+                android:exported="true"/>
 
             <!-- Calvin Klein -->
             <activity
                 android:name=".perfumeria.CK"
-                android:exported="true">
-                <intent-filter>
-                    <action android:name="android.intent.action.MAIN" />
-
-                    <category android:name="android.intent.category.LAUNCHER" />
-                </intent-filter>
-            </activity>
+                android:exported="true"/>
 
             <!-- Play Boy -->
             <activity
                 android:name=".perfumeria.PlayBoy"
-                android:exported="true">
-                <intent-filter>
-                    <action android:name="android.intent.action.MAIN" />
-
-                    <category android:name="android.intent.category.LAUNCHER" />
-                </intent-filter>
-            </activity>
+                android:exported="true"/>
 
             <!-- Dolce Gabbana -->
             <activity
                 android:name=".perfumeria.Dolce"
-                android:exported="true">
-                <intent-filter>
-                    <action android:name="android.intent.action.MAIN" />
-
-                    <category android:name="android.intent.category.LAUNCHER" />
-                </intent-filter>
-            </activity>
+                android:exported="true"/>
 
             <!-- Chanel -->
             <activity
                 android:name=".perfumeria.Chanel"
-                android:exported="true">
-                <intent-filter>
-                    <action android:name="android.intent.action.MAIN" />
-
-                    <category android:name="android.intent.category.LAUNCHER" />
-                </intent-filter>
-            </activity>
+                android:exported="true"/>
 
 
     </application>
