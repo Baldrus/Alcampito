@@ -46,7 +46,7 @@
         <!--ScrollView-->
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="520dp">
+            android:layout_height="560dp">
 
             <ScrollView
                 android:layout_width="match_parent"
@@ -91,7 +91,8 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:gravity="center_vertical"
-                                android:textColor="@color/black" />
+                                android:textColor="@color/black"
+                                android:text="Jarrón de cristal decorativo para muebles."/>
 
                         </LinearLayout>
 
@@ -128,7 +129,8 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:gravity="center_vertical"
-                                android:textColor="@color/black" />
+                                android:textColor="@color/black"
+                                android:text="Réplica del clásico cuadro de la MonaLisa obra pictórica del polímata renacentista italiano Leonardo da Vinci."/>
 
                         </LinearLayout>
 
@@ -147,7 +149,6 @@
                             android:layout_width="156dp"
                             android:layout_height="126dp"
                             android:src="@drawable/tapiz"/>
-                        <!--Estatuilla de cerámica en tono teja., Dimensión:, 12,5x11x39 cm-->
 
                         <LinearLayout
                             android:layout_width="match_parent"
@@ -166,6 +167,7 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:gravity="center_vertical"
+                                android:text="Tapiz de Carlos III hecho a mano de algodón bohemio."
                                 android:textColor="@color/black" />
 
                         </LinearLayout>
@@ -203,7 +205,8 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:gravity="center_vertical"
-                                android:textColor="@color/black" />
+                                android:textColor="@color/black"
+                                android:text="Alfombra de estilo moderno de lana."/>
 
                         </LinearLayout>
 
@@ -240,7 +243,8 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:gravity="center_vertical"
-                                android:textColor="@color/black" />
+                                android:textColor="@color/black"
+                                android:text="Estatuilla de cerámica en tono teja."/>
 
                         </LinearLayout>
 
@@ -277,7 +281,8 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:gravity="center_vertical"
-                                android:textColor="@color/black" />
+                                android:textColor="@color/black"
+                                android:text="Si todavía sigues buscando un espejo decorativo para hacer que las paredes de tu hogar se vean hermosas y luminosas, ¡no te..."/>
 
                         </LinearLayout>
 

@@ -48,7 +48,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Género: Plataformas\nCompañía: Nintendo\nPlataformas: WII, Nintendo Switch\nPrecio: 39,99€\n\nPor fin una aventura de Mario de las de toda la vida, pero con toques nuevos. Los desarrolladores en Nintendo llevan años soñando con crear un título de Super Mario Bros. con multijugador simultáneo. Ahora la consola Wii hace este sueño posible para todo el mundo para navidades este año.\n\nViaja por mundos de desplazamiento lateral solo o con hasta otros tres amigos, al mismo tiempo, en el mismo nivel y en cualquier punto del juego para disfrutar del título de forma cooperativa o competitiva.\n\nCon el modo multijugador, la nueva entrega de la saga de videojuegos más famosa promete traer al cuarto de estar una nueva forma de entretenimiento para toda la familia y enganchar a grupos de amigos a la diversión frenética de Super Mario Bros."
+                android:text="Dimensiones: 25x25 cm\nPrecio: 24,95€\n\nSi todavía sigues buscando un espejo decorativo para hacer que las paredes de tu hogar se vean hermosas y luminosas, ¡no te preocupes! A continuación, te enseñamo el espejo ideal para una casa de estilo moderno ."
                 android:textColor="@color/black"
                 android:textSize="20dp"/>
 

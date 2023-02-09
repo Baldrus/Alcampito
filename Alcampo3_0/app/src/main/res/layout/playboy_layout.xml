@@ -48,7 +48,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Género: Plataformas\nCompañía: Nintendo\nPlataformas: WII, Nintendo Switch\nPrecio: 39,99€\n\nPor fin una aventura de Mario de las de toda la vida, pero con toques nuevos. Los desarrolladores en Nintendo llevan años soñando con crear un título de Super Mario Bros. con multijugador simultáneo. Ahora la consola Wii hace este sueño posible para todo el mundo para navidades este año.\n\nViaja por mundos de desplazamiento lateral solo o con hasta otros tres amigos, al mismo tiempo, en el mismo nivel y en cualquier punto del juego para disfrutar del título de forma cooperativa o competitiva.\n\nCon el modo multijugador, la nueva entrega de la saga de videojuegos más famosa promete traer al cuarto de estar una nueva forma de entretenimiento para toda la familia y enganchar a grupos de amigos a la diversión frenética de Super Mario Bros."
+                android:text="Género: Masculino\nPrecio: 34,99€\n\nPlayboy quiere romper convenciones y desafiar percepciones. No necesitas tener físico de modelo para aparecer en una portada. Haz lo que quieras, di lo que quieras, actúa como quieras. Saca a la luz tu verdadera esencia. La apariencia, el género y la sexualidad ya no limitan quién puede llegar a la cima y la forma de expresarse de cada persona. ¡Atrévete a mostrar tu verdadero yo!"
                 android:textColor="@color/black"
                 android:textSize="20dp"/>
 

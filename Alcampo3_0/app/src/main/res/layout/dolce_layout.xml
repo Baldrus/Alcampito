@@ -48,7 +48,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Género: Plataformas\nCompañía: Nintendo\nPlataformas: WII, Nintendo Switch\nPrecio: 39,99€\n\nPor fin una aventura de Mario de las de toda la vida, pero con toques nuevos. Los desarrolladores en Nintendo llevan años soñando con crear un título de Super Mario Bros. con multijugador simultáneo. Ahora la consola Wii hace este sueño posible para todo el mundo para navidades este año.\n\nViaja por mundos de desplazamiento lateral solo o con hasta otros tres amigos, al mismo tiempo, en el mismo nivel y en cualquier punto del juego para disfrutar del título de forma cooperativa o competitiva.\n\nCon el modo multijugador, la nueva entrega de la saga de videojuegos más famosa promete traer al cuarto de estar una nueva forma de entretenimiento para toda la familia y enganchar a grupos de amigos a la diversión frenética de Super Mario Bros."
+                android:text="Género: Femenino\nPrecio: 29,99€\n\nFragancia femenina intensamente fresca. Su aroma es clasicamente femenino, cálido y atrayente.\n\nCon estilo mediterráneo y de caracter informal evoca los divertidos y felices días veraniegos.\n\nUn Eau de Toilette para mujeres dinámicas, positivas, modernas, que disfrutan la vida. Light Blue es una inyección de positivismo, energía y vitalidad para ellas. "
                 android:textColor="@color/black"
                 android:textSize="20dp"/>
 

@@ -46,7 +46,7 @@
         <!--ScrollView-->
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="520dp">
+            android:layout_height="560dp">
 
             <ScrollView
                 android:layout_width="match_parent"
@@ -92,7 +92,8 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:gravity="center_vertical"
-                                android:textColor="@color/black" />
+                                android:textColor="@color/black"
+                                android:text="La nueva fragancia de Jordi Wild para causar sensación a tu alrededor."/>
 
                         </LinearLayout>
 
@@ -129,7 +130,8 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:gravity="center_vertical"
-                                android:textColor="@color/black" />
+                                android:textColor="@color/black"
+                                android:text="El hombre Boss está preparado para tener éxito: competitivo, emprendedor y ambicioso.\nSus rituales diarios de preparación forman..."/>
 
                         </LinearLayout>
 
@@ -166,7 +168,8 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:gravity="center_vertical"
-                                android:textColor="@color/black" />
+                                android:textColor="@color/black"
+                                android:text="Es una fragancia masculina de la familia olfativa Aromática Fougère. Esta fragancia fue lanzada en el 2007 y fue creada por..."/>
 
                         </LinearLayout>
 
@@ -203,7 +206,8 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:gravity="center_vertical"
-                                android:textColor="@color/black" />
+                                android:textColor="@color/black"
+                                android:text="Playboy quiere romper convenciones y desafiar percepciones. No necesitas tener físico de modelo para aparecer en una portada. Haz lo..."/>
 
                         </LinearLayout>
 
@@ -240,7 +244,8 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:gravity="center_vertical"
-                                android:textColor="@color/black" />
+                                android:textColor="@color/black"
+                                android:text="Fragancia femenina intensamente fresca. Su aroma es clasicamente femenino, cálido y atrayente.\nCon estilo mediterráneo..."/>
 
                         </LinearLayout>
 
@@ -277,7 +282,8 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:gravity="center_vertical"
-                                android:textColor="@color/black" />
+                                android:textColor="@color/black"
+                                android:text="«Un perfume de mujer con olor a mujer», extraordinario y poderoso. El nariz le propone una composición visionaria que apela a una..."/>
 
                         </LinearLayout>
 
